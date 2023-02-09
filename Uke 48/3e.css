@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100wv;
+  background-color: #333;
+  color: #ddd;
+}
+
+.wrapper {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
