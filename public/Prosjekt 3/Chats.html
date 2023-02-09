@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Forum</title>
+  </head>
+  <body>
+    <header>
+      <h1>Forum</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Hjem</a></li>
+        <li><a href="#">Emner</a></li>
+        <li><a href="#">Søk</a></li>
+        <li><a href="#" id="login-link">Logg inn</a></li>
+        <li><a href="#" id="register-link">Registrer</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="intro">
+        <h2>Velkommen til forumet</h2>
+        <p>Her kan du diskutere ulike emner med andre brukere.</p>
+      </section>
+      <section id="emner">
+        <h2>Populære emner</h2>
+        <ul>
+          <li><a href="#">Teknologi</a></li>
+          <li><a href="#">Politikk</a></li>
+          <li><a href="#">Sport</a></li>
+          <li><a href="#">Reise</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>CHATZ</p>
+    </footer>
+    <div id="login-modal">
+      <form id="login-form">
+        <label for="username">Brukernavn:</label>
+        <input type="text" id="username" name="username" />
+        <br />
+        <label for="password">Passord:</label>
+        <input type="password" id="password" name="password" />
+        <br />
+        <input type="submit" value="Logg inn" />
+        <button id="close-login-modal">Lukk</button>
+      </form>
+    </div>
+    <div id="register-modal">
+      <form id="register-form">
+        <label for="username">Brukernavn:</label>
+        <input type="text" id="username" name="username" />
+        <br />
+        <label for="email">E-post:</label>
+        <input type="email" id="email" name="email" />
+        <br />
+        <label for="password">Passord:</label>
+        <input type="password" id="password" name="password" />
+        <br />
+        <label for="password-confirm">Bekreft passord:</label>
+        <input type="password" id="password-confirm" name="password-confirm" />
+        <br/>
+        <button id="close-register-modal">Lukk</button>
+        <input type="submit" value="Registrer">
+        </form>
+  </div>
+</body>
+</html>
+      </form>
+    </div>
+  </body>
+</html>
